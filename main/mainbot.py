@@ -267,6 +267,6 @@ async def before_some_task():
     await client.wait_until_ready()
 
 reddit.start()
-# token = os.environ['token']
-# client.run(token)
-client.run('ODQ2NjA5NDkxMDQ2ODI1OTg1.YKyAhw.ONsFTu8V_4PIUgO7PGaoMnjK8k8')
+token = os.environ['token']
+client.run(token)
+
